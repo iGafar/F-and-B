@@ -1,6 +1,6 @@
 # R&B
 
-### Link: https://igafar.github.io/F_and_B/
+### Link: https://igafar.github.io/F-and-B/
 
 ## Technologies and libraries
 
