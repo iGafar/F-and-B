@@ -26,13 +26,11 @@ export default {
       },
       backgroundImage: {
         main_back:
-          "linear-gradient(rgba(29, 47, 48, .7), rgba(29, 47, 48, .7)), url(./src/assets/images/main_back.jpg)",
+          "linear-gradient(rgba(29, 47, 48, .7), rgba(29, 47, 48, .7)), url(/images/main_back.jpg)",
         help_back:
-          "linear-gradient(rgba(29, 47, 48, .7), rgba(29, 47, 48, .7)), url(./src/assets/images/help_back.jpg)",
+          "linear-gradient(rgba(29, 47, 48, .7), rgba(29, 47, 48, .7)), url(/images/help_back.jpg)",
       },
     },
   },
-  plugins: [
-		require('tailwind-scrollbar'),
-	],
+  plugins: [require("tailwind-scrollbar")],
 };
