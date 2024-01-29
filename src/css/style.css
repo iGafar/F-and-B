@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a,
+button,
+input,
+select,
+textarea {
+  @apply focus-visible:border-green_focus border border-transparent focus-visible:outline-none;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.swiper {
+  padding-right: 1px !important;
+}
+
+.swiper-slide.flex {
+  display: flex;
+  height: auto;
+}
+
+.swiper-pagination {
+  position: static !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #bae249 !important;
+}
+
+.swiper-button-disabled {
+  opacity: 0.6;
+}
+
+.swiper-button-disabled:hover path {
+  fill: #899d9d !important;
+}

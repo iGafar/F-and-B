@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
+    <title>F&B</title>
+  </head>
+  <body class="font-opensans text-white bg-background">
+    <header class="pt-5 tb:pb-5 pb-8 fixed w-full bg-background z-10">
+      <div class="container">
+        <nav class="flex justify-between">
+          <a href="#main"
+            ><img src="./src/assets/images/icons/logo.svg" alt="Logo"
+          /></a>
+          <ul
+            class="flex justify-between items-center gap-4 absolute top-[55px] pr-8 w-full overflow-auto whitespace-nowrap scrollbar-none tb:static tb:pr-0 tb:w-auto"
+          >
+            <li
+              class="md:hover:text-primary_green transition-all duration-300 md:active:text-green_active"
+            >
+              <a class="px-[3px]" href="#">Каталог</a>
+            </li>
+            <li
+              class="md:hover:text-primary_green transition-all duration-300 md:active:text-green_active"
+            >
+              <a class="px-[3px]" href="#">Галерея</a>
+            </li>
+            <li
+              class="md:hover:text-primary_green transition-all duration-300 md:active:text-green_active"
+            >
+              <a class="px-[3px]" href="#">О лаборатории</a>
+            </li>
+            <li
+              class="md:hover:text-primary_green transition-all duration-300 md:active:text-green_active"
+            >
+              <a class="px-[3px]" href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul class="flex justify-between items-center gap-4">
+            <li
+              class="[&_path]:hover:stroke-green_hover md:[&_path]:active:stroke-green_active"
+            >
+              <button class="px-[3px] inline-block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    class="transition duration-300"
+                    d="M13 19C8.58172 19 5 15.4183 5 11C5 6.58172 8.58172 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z"
+                    stroke="#BAE249"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    class="transition duration-300"
+                    d="M2.99998 21L7.34998 16.65"
+                    stroke="#BAE249"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li
+              class="[&_path]:hover:stroke-green_hover md:[&_path]:active:stroke-green_active"
+            >
+              <a class="px-[3px] inline-block" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    class="transition duration-300"
+                    d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15"
+                    stroke="#BAE249"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    class="transition duration-300"
+                    d="M10 17L15 12L10 7"
+                    stroke="#BAE249"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    class="transition duration-300"
+                    d="M15 12H3"
+                    stroke="#BAE249"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section
+        class="main tb:py-28 py-8 bg-main_back bg-center bg-cover bg-no-repeat relative"
+      >
+        <div class="container">
+          <h1
+            class="font-cormorant tb:text-6xl text-5xl tb:max-w-2xl max-w-64 mb-4 mx-auto tb:mx-0"
+          >
+            Крупнейшая коллекция природных артефактов
+          </h1>
+          <p class="mb-6 max-w-[41rem] hidden tb:block">
+            Являясь всего лишь частью общей картины, интерактивные прототипы,
+            которые представляют собой яркий пример европейского типа
+            политической и социальной культуры.
+          </p>
+          <a
+            class="flex items-center gap-2 tb:w-max w-64 text-primary_green hover:text-green_hover [&_path]:hover:fill-green_hover active:text-green_active [&_path]:active:fill-green_active transition duration-300 mx-auto tb:mx-0"
+            href="#"
+            >Исследовать
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="44"
+              height="15"
+              viewBox="0 0 44 15"
+              fill="none"
+            >
+              <path
+                class="transition duration-300"
+                d="M43.7071 8.20711C44.0976 7.81658 44.0976 7.18342 43.7071 6.79289L37.3431 0.428932C36.9526 0.0384078 36.3195 0.0384078 35.9289 0.428932C35.5384 0.819457 35.5384 1.45262 35.9289 1.84315L41.5858 7.5L35.9289 13.1569C35.5384 13.5474 35.5384 14.1805 35.9289 14.5711C36.3195 14.9616 36.9526 14.9616 37.3431 14.5711L43.7071 8.20711ZM0 8.5L43 8.5V6.5L0 6.5L0 8.5Z"
+                fill="#BAE249"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section class="flowers py-16">
+        <div class="container">
+          <div class="swiper">
+            <ul class="swiper-wrapper flex justify-between mb-7">
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 1 (plant)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Имеется спорная точка зрения, гласящая примерно следующее:
+                  активно развивающиеся страны третьего мира своевременно
+                  верифицированы.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower1.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade ade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 2 (flower)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Прежде всего, синтетическое тестирование влечет за собой
+                  процесс внедрения и модернизации условий.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower2.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade ade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 3 (leaf)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Лишь непосредственные участники прогресса неоднозначны и будут
+                  в равной степени предоставлены сами себе для работы.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower3.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade ade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 4 (wood)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Базовый вектор развития не даёт нам иного выбора, кроме
+                  определения новых предложений.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower4.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 1 (plant)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Имеется спорная точка зрения, гласящая примерно следующее:
+                  активно развивающиеся страны третьего мира своевременно
+                  верифицированы.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower1.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+              <li
+                class="swiper-slide p-4 pb-6 border border-background_shade ade w-64 flex flex-col"
+              >
+                <h3 class="font-cormorant text-2xl font-bold mb-2 leading-9">
+                  Fig. 2 (flower)
+                </h3>
+                <p class="text-primary_gray leading-6 mb-4">
+                  Прежде всего, синтетическое тестирование влечет за собой
+                  процесс внедрения и модернизации условий.
+                </p>
+                <a
+                  class="mt-auto py-3 px-7 inline-block text-primary_green border border-primary_green hover:bg-green_hover hover:text-background_shade transition duration-300 active:bg-green_active text-center"
+                  onclick="return false"
+                  href="#"
+                  >Подробнее</a
+                >
+                <picture
+                  class="order-first bg-background_shade -mx-4 -mt-4 p-[30px] h-[180px] flex"
+                >
+                  <img
+                    class="mx-auto"
+                    src="./src/assets/images/flower2.svg"
+                    alt="цветочек"
+                  />
+                </picture>
+              </li>
+            </ul>
+          </div>
+          <div class="flex mx-auto w-max">
+            <button
+              class="swiper-button-prev [&_path]:hover:fill-green_hover active:text-green_active md:[&_path]:active:fill-green_active"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="16"
+                viewBox="0 0 26 16"
+                fill="none"
+              >
+                <path
+                  class="transition duration-300"
+                  d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM26 7L1 7V9L26 9V7Z"
+                  fill="#899D9D"
+                />
+              </svg>
+            </button>
+            <div
+              class="swiper-pagination font-cormorant tb:text-2xl mx-8"
+            ></div>
+            <button
+              class="swiper-button-next [&_path]:hover:fill-green_hover active:text-green_active md:[&_path]:active:fill-green_active"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="16"
+                viewBox="0 0 26 16"
+                fill="none"
+              >
+                <path
+                  class="transition duration-300"
+                  d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z"
+                  fill="#899D9D"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="artefacts pb-16">
+        <div class="container">
+          <h2 class="font-cormorant text-5xl italic mb-8">Новые артефакты</h2>
+          <div class="flex gap-[30px] mb:flex-wrap big:flex-nowrap max-w-full">
+            <div class="overflow-auto scrollbar-none">
+              <ul
+                class="bg-background_shade flex flex-wrap justify-between min-w-[825px]"
+              >
+                <li class="p-4">
+                  <img src="./src/assets/images/art1.png" alt="art1" />
+                </li>
+                <li class="p-4">
+                  <img src="./src/assets/images/art2.png" alt="art2" />
+                </li>
+                <li class="p-4">
+                  <img src="./src/assets/images/art3.png" alt="art3" />
+                </li>
+                <li class="p-4">
+                  <img src="./src/assets/images/art4.png" alt="art4" />
+                </li>
+                <li class="p-4 -ml-10">
+                  <img src="./src/assets/images/art5.png" alt="art5" />
+                </li>
+                <li class="p-4">
+                  <img src="./src/assets/images/art6.png" alt="art6" />
+                </li>
+                <li class="p-4">
+                  <img src="./src/assets/images/art7.png" alt="art7" />
+                </li>
+              </ul>
+            </div>
+            <blockquote
+              class="bg-primary_green p-4 pb-6 flex flex-col max-h-[493px] big:max-w-[255px] overflow-hidden"
+            >
+              <h3
+                class="font-cormorant text-2xl font-bold text-background mb-2 min-w-[223px]"
+              >
+                Kurische Nehrung 24
+              </h3>
+              <p class="text-green_text min-w-[223px] overflow-hidden mb-6">
+                Вот вам яркий пример современных тенденций - начало повседневной
+                работы по формированию позиции выявляет срочную потребность
+                методов управления процессами.<br /><br />
+                Есть над чем задуматься: представители современных социальных
+                резервов своевременно верифицированы.
+              </p>
+              <a
+                class="flex items-center gap-2 text-background_shade font-bold mt-auto min-w-[166px] hover:text-green_hover active:text-green_active [&_path]:hover:fill-green_hover [&_path]:active:fill-green_active"
+                href="#"
+                >Читать далее
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="44"
+                  height="16"
+                  viewBox="0 0 44 16"
+                  fill="none"
+                >
+                  <path
+                    d="M43.7071 8.70711C44.0976 8.31658 44.0976 7.68342 43.7071 7.29289L37.3431 0.928932C36.9526 0.538408 36.3195 0.538408 35.9289 0.928932C35.5384 1.31946 35.5384 1.95262 35.9289 2.34315L41.5858 8L35.9289 13.6569C35.5384 14.0474 35.5384 14.6805 35.9289 15.0711C36.3195 15.4616 36.9526 15.4616 37.3431 15.0711L43.7071 8.70711ZM0 9L43 9V7L0 7L0 9Z"
+                    fill="#0B1919"
+                  />
+                </svg>
+              </a>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="form py-16 bg-help_back bg-center bg-cover bg-no-repeat">
+        <div class="container">
+          <h2 class="font-cormorant text-5xl italic mb-4">Помочь проекту</h2>
+          <p class="max-w-4xl mb-6">
+            Равным образом, экономическая повестка сегодняшнего дня не даёт нам
+            иного выбора, кроме определения прогресса профессионального
+            сообщества. Как принято считать, элементы политического процесса
+            рассмотрены исключительно в разрезе маркетинговых и финансовых
+            предпосылок.
+          </p>
+          <form action="#" class="flex flex-col max-w-80 gap-6">
+            <label class="text-background_shade">
+              <input class="px-4 py-2 w-full" type="text" placeholder="Имя" />
+            </label>
+            <label class="text-background_shade">
+              <input class="px-4 py-2 w-full" type="text" placeholder="Email" />
+            </label>
+            <button
+              class="py-3 px-7 bg-primary_green text-background_shade font-bold hover:bg-green_hover active:bg-green_active w-36 transition duration-300"
+              type="submit"
+            >
+              Отправить
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-background_shade">
+      <div class="container">
+        <ul class="flex items-center gap-8 w-max mx-auto py-4">
+          <li
+            class="h-6 w-6 [&_path]:hover:fill-primary_green [&_path]active:fill-green_active"
+          >
+            <a class="inline-block" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_13_14)">
+                  <path
+                    class="transition duration-300"
+                    d="M21.543 6.498C22 8.28 22 12 22 12C22 12 22 15.72 21.543 17.502C21.289 18.487 20.546 19.262 19.605 19.524C17.896 20 12 20 12 20C12 20 6.107 20 4.395 19.524C3.45 19.258 2.708 18.484 2.457 17.502C2 15.72 2 12 2 12C2 12 2 8.28 2.457 6.498C2.711 5.513 3.454 4.738 4.395 4.476C6.107 4 12 4 12 4C12 4 17.896 4 19.605 4.476C20.55 4.742 21.292 5.516 21.543 6.498ZM10 15.5L16 12L10 8.5V15.5Z"
+                    fill="#899D9D"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_13_14">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li
+            class="h-6 w-6 [&_path]:hover:fill-primary_green [&_path]active:fill-green_active"
+          >
+            <a class="inline-block" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_13_11)">
+                  <path
+                    class="transition duration-300"
+                    d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+                    fill="#899D9D"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_13_11">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li
+            class="h-6 w-6 [&_path]:hover:fill-primary_green [&_path]active:fill-green_active"
+          >
+            <a class="inline-block" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_13_5)">
+                  <path
+                    class="transition duration-300"
+                    d="M15.402 21V14.034H17.735L18.084 11.326H15.402V9.598C15.402 8.814 15.62 8.279 16.744 8.279H18.178V5.857C17.4838 5.78334 16.7861 5.74762 16.088 5.75C14.021 5.75 12.606 7.012 12.606 9.33V11.326H10.268V14.034H12.606V21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V4C3 3.73478 3.10536 3.48043 3.29289 3.29289C3.48043 3.10536 3.73478 3 4 3H20C20.2652 3 20.5196 3.10536 20.7071 3.29289C20.8946 3.48043 21 3.73478 21 4V20C21 20.2652 20.8946 20.5196 20.7071 20.7071C20.5196 20.8946 20.2652 21 20 21H15.402Z"
+                    fill="#899D9D"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_13_5">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li
+            class="h-6 w-6 [&_path]:hover:fill-primary_green [&_path]active:fill-green_active"
+          >
+            <a class="inline-block" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_13_8)">
+                  <path
+                    class="transition duration-300"
+                    d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75097 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.3449 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.264 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+                    fill="#899D9D"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_13_8">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <footer class="flex justify-center py-1 text-primary_gray">
+      <p>f&b &reg; <time class="current-year"></time></p>
+    </footer>
+    <script type="module" src="./src/js/main.ts"></script>
+  </body>
+</html>
